@@ -8,6 +8,9 @@
 # Required heap opeartions:
 # - Insert
 # - Extract min
+# NOTE: heapsort is an in-place algorithm, meaning it is O(1) space.
+# The implementation here is not in-place: it requires O(n)
+# space to create the heap. 
 
 def initialize_heap(nums):
   heap = []
